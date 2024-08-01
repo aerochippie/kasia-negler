@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Darker+Grotesque:wght@300..900&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Meera+Inimai&family=Ms+Madi&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.noto-sans-type {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.edu-au-vic-wa-nt-hand-type {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  background-color: #fef8f8;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Darker Grotesque", sans-serif;
+  text-transform: capitalize;
+  padding-left: 2em;
+  padding-right: 2em;
+
+  .nav {
+    list-style-type: none;
+    margin: 1em;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+
+    li {
+      font-size: 1.3em;
+      font-weight: 400;
+      color: rgb(255, 255, 255);
+    }
+    a {
+      padding: 0.2em;
+      margin: 0.2em;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .logo {
+    list-style-type: none;
+    margin: 1em;
+    padding: 0;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      max-width: 133px;
+      height: auto;
+    }
+  }
+}
+.header {
+  background-color: rgb(15, 15, 15);
+  position: relative;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.1em;
+   h1 {
+    font-size: 3em;
+    font-family: "Dancing Script", cursive;
+    color: #ffffff;
+  }
+  .header-text {
+    top: 30%;
+    left: 55%;
+    position: absolute;
+    max-width: 500px;
+    color: #ffffff;
+    font-weight: 100;
+    text-align: center;
+
+  }
+  .header-text a{
+    text-decoration: none;
+
+  }
+  .header-text a p{
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0.5em;
+    font-family: "Dancing Script", cursive;
+    font-size: 1.5em;
+    color: #cf113a;
+  }
+
+  .header-image img {
+    width: 100%;
+    height: auto;
+  }
+  .header-image {
+    background-color: white;
+  }
+}
+
+.content {
+  .content-heading h2 {
+    text-align: center;
+  }
+
+  .content-cards{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  min-height: 100vh;
+  padding: 30px;
+  margin: 0;
+  
+  color: #224;
+ 
+}
+  }
+    .card {
+        max-width: 300px;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background:
+        url(images/articleimg2.jpg)
+        center / cover no-repeat fixed;
+        max-width: 500px;
+        height: 300px;
+        padding: 35px;
+      
+        border: 1px solid rgba(255, 255, 255, .25);
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.45);
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+      
+        backdrop-filter: blur(15px);
+      }
+  .card-img img{
+    max-width: 66%;
+    height: auto;
+    border-radius: 50%;
+  }
+.card-img{
+    padding: 1em
+}
+  .card-text{
+padding: 2em;
+text-align: left;
+
+  }
